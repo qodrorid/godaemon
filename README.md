@@ -23,7 +23,7 @@ import (
 func main() {
 	mux := http.NewServeMux()
 	mux.HandleFunc("/index", func(rw http.ResponseWriter, req *http.Request) {
-		rw.Write([]byte("hello, golang!\n"))
+		rw.Write([]byte("Assalamu'alaikum, golang!\n"))
 	})
 	log.Fatalln(http.ListenAndServe(":3030", mux))
 }
@@ -34,7 +34,7 @@ func main() {
 ```
 ./example -d=true
 ~$ curl http://127.0.0.1:3030/index
-hello, golang!
+Assalamu'alaikum, golang!
 ```
 
 # Enjoy :)

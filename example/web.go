@@ -10,7 +10,7 @@ func main() {
 
 	mux := http.NewServeMux()
 	mux.HandleFunc("/index", func(rw http.ResponseWriter, req *http.Request) {
-		rw.Write([]byte("hello, golang!\n"))
+		rw.Write([]byte("Assalamu'alaikum, golang!\n"))
 	})
 	log.Fatalln(http.ListenAndServe(":3030", mux))
 }
