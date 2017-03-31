@@ -1,10 +1,10 @@
 package godaemon
 
 import (
-	"flag"
 	"fmt"
 	"os"
 	"os/exec"
+	"flag"
 )
 
 var godaemon = flag.Bool("d", false, "run app as a daemon with -d=true")

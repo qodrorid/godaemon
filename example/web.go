@@ -1,7 +1,7 @@
 package main
 
 import (
-	_ "github.com/icattlecoder/godaemon"
+	_ "github.com/qodrorid/godaemon"
 	"log"
 	"net/http"
 )
